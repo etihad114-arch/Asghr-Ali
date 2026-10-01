@@ -1,0 +1,55 @@
+GS CIVIL ENGINEERING WEBSITE — V16 DEPLOYMENT GUIDE
+
+1. CONTACT CONFIGURATION
+Open site-config.js and replace:
+- email
+- phone
+- whatsapp
+- domain
+- location (if required)
+
+2. FORM
+The existing enquiry form is intentionally not connected to a third-party service.
+Connect it to your chosen form/email backend before launch.
+Do not publish a form that sends confidential project files to an untrusted endpoint.
+
+3. DOMAIN
+Replace https://yourdomain.com/ in:
+- site-config.js
+- index.html canonical URL, if present
+- robots.txt
+- sitemap.xml
+- structured-data URL fields
+
+4. HOSTING
+Upload the contents of this package to the hosting public web directory.
+Keep the ZIP as the release backup.
+
+5. HTTPS
+Enable HTTPS/SSL before sharing the website publicly.
+
+6. TESTING
+Test:
+- Home navigation
+- Services
+- Project sections
+- Contact form
+- Email links
+- WhatsApp link
+- Mobile menu
+- 404 page
+- sitemap.xml
+- robots.txt
+- favicon/manifest
+- Chrome and Edge
+- Android and iPhone
+
+7. PROJECT INFORMATION
+Only publish client names, photographs, project values, dates, drawings and other information when disclosure is authorized.
+
+8. PROFESSIONAL / STATUTORY MATTERS
+The website describes services and experience. Statutory approvals, certifications, licensed-signatory requirements and authority submissions remain subject to the applicable jurisdiction and appointed professionals.
+
+V16 STATUS
+Deployment-ready static website package.
+Real contact credentials and the production form endpoint remain owner-controlled configuration.

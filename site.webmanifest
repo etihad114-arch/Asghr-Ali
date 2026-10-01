@@ -1,0 +1,9 @@
+{
+  "name": "GS Civil Engineering & Surveying Solutions",
+  "short_name": "GS Civil Engineering",
+  "description": "Civil engineering, surveying, CAD, Civil 3D, GIS, BOQ and construction support.",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#0b1f33",
+  "background_color": "#ffffff"
+}

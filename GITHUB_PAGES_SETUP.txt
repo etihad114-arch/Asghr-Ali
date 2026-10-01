@@ -1,0 +1,31 @@
+GS CIVIL ENGINEERING & SURVEYING SOLUTIONS
+GitHub Pages Deployment Package — V20
+
+1. Create/sign in to your GitHub account.
+2. Create a repository.
+   - For a main personal site: USERNAME.github.io
+   - Or use a normal project repository.
+3. Upload ALL files from this package to the repository root.
+4. Keep index.html at the repository root.
+5. Go to Settings > Pages.
+6. Under Build and deployment, choose GitHub Actions.
+7. Push/commit the files to the main branch.
+8. Wait for the Actions deployment to finish.
+9. Open the published URL shown by GitHub.
+
+GitHub Pages supports static HTML, CSS and JavaScript files.
+The website currently contains placeholder contact/domain values in site-config.js.
+Replace these before public launch:
+- YOUR-EMAIL@example.com
+- +92 XXX XXXXXXX
+- 92XXXXXXXXXX
+- https://yourdomain.com/
+
+The quote form currently prepares a local enquiry summary. It does not send submissions to a server until a backend/form service is connected.
+
+Security:
+- Never upload passwords, API keys, private client drawings, or confidential project data.
+- GitHub Pages sites are public on the internet.
+
+Official documentation:
+https://docs.github.com/en/pages/getting-started-with-github-pages

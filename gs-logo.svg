@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 150" role="img" aria-label="GS Civil Engineering and Surveying Solutions">
+  <defs>
+    <linearGradient id="gold" x1="0" x2="1">
+      <stop offset="0" stop-color="#D99A16"/>
+      <stop offset="1" stop-color="#F5C64A"/>
+    </linearGradient>
+    <linearGradient id="navy" x1="0" x2="1">
+      <stop offset="0" stop-color="#082544"/>
+      <stop offset="1" stop-color="#12456E"/>
+    </linearGradient>
+  </defs>
+  <rect width="620" height="150" rx="18" fill="#ffffff"/>
+  <!-- road / survey arc -->
+  <path d="M18 122 C72 80, 120 72, 170 28" fill="none" stroke="url(#gold)" stroke-width="13" stroke-linecap="round"/>
+  <path d="M22 132 C78 92, 128 85, 180 40" fill="none" stroke="#0B3153" stroke-width="8" stroke-linecap="round"/>
+  <!-- satellite / GNSS -->
+  <g stroke="#0B3153" stroke-width="5" fill="none" stroke-linecap="round">
+    <path d="M45 42 L82 12"/>
+    <path d="M58 52 L95 22"/>
+    <path d="M48 35 L70 58"/>
+    <path d="M82 12 L105 35"/>
+  </g>
+  <circle cx="78" cy="39" r="7" fill="#D99A16"/>
+  <!-- buildings -->
+  <g fill="#0B3153">
+    <path d="M116 87V43l18-12v56z"/>
+    <path d="M136 87V25l21-14v76z"/>
+    <path d="M160 87V47l19-13v53z"/>
+  </g>
+  <g fill="#F5C64A">
+    <rect x="124" y="54" width="5" height="8"/><rect x="124" y="68" width="5" height="8"/>
+    <rect x="145" y="39" width="5" height="8"/><rect x="145" y="54" width="5" height="8"/>
+    <rect x="145" y="69" width="5" height="8"/>
+  </g>
+  <!-- total station -->
+  <g transform="translate(177 70)">
+    <rect x="0" y="8" width="20" height="25" rx="3" fill="#0B3153"/>
+    <circle cx="10" cy="5" r="10" fill="#D99A16" stroke="#0B3153" stroke-width="4"/>
+    <path d="M10 15L1 45M10 15l9 30M10 15v30" stroke="#0B3153" stroke-width="3"/>
+  </g>
+  <!-- GS -->
+  <text x="218" y="73" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="900" fill="url(#navy)">GS</text>
+  <text x="300" y="57" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="800" fill="#0B3153">CIVIL ENGINEERING</text>
+  <text x="300" y="89" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="800" fill="#D99A16">&amp; SURVEYING SOLUTIONS</text>
+  <text x="302" y="119" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="3" fill="#60758A">GPS • SURVEY • DESIGN • PLAN • CONSTRUCT • DELIVER</text>
+</svg>
