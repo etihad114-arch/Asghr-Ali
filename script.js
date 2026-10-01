@@ -20,10 +20,10 @@ function sendMessage(e) {
   const message = document.getElementById("message").value;
   const subject = encodeURIComponent("Website project enquiry");
   const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nProject / Service:\n${message}`);
-  // Replace the placeholder address below with your business email.
-  window.location.href = `mailto:YOUR-EMAIL@example.com?subject=${subject}&body=${body}`;
+  const businessEmail = (window.GS_SITE_CONFIG && window.GS_SITE_CONFIG.email) || 'etihad114@gmail.com';
+  window.location.href = `mailto:${businessEmail}?subject=${subject}&body=${body}`;
   document.getElementById("form-status").textContent =
-    "Replace YOUR-EMAIL@example.com in script.js with your actual business email.";
+    "Your email application should open with the project enquiry prepared.";
 }
 
 
@@ -71,18 +71,6 @@ document.querySelectorAll('.package-link').forEach(link => {
       if (service) service.focus();
     }, 250);
   });
-});
-
-
-// V13: warn before using the placeholder contact endpoint.
-document.addEventListener('submit', (event) => {
-  const form = event.target;
-  if (!(form instanceof HTMLFormElement)) return;
-  const action = form.getAttribute('action') || '';
-  if (action.includes('YOUR-EMAIL@example.com')) {
-    event.preventDefault();
-    alert('Please replace YOUR-EMAIL@example.com with the real business email before publishing this website.');
-  }
 });
 
 

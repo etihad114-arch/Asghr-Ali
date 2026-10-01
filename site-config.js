@@ -4,7 +4,7 @@
 */
 window.GS_SITE_CONFIG = {
   businessName: "GS Civil Engineering & Surveying Solutions",
-  email: "YOUR-EMAIL@example.com",
+  email: "etihad114@gmail.com",
   phone: "+92 XXX XXXXXXX",
   whatsapp: "92XXXXXXXXXX",
   domain: "https://yourdomain.com/",

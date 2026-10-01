@@ -25,7 +25,7 @@ V9 PROFESSIONAL WEBSITE UPDATE
 - Existing logo, portfolio, online services, quote form, FAQ and professional profile retained
 
 BEFORE DEPLOYMENT
-1. Replace YOUR-EMAIL@example.com with the real business email.
+1. Replace etihad114@gmail.com with the real business email.
 2. Replace +92 XXX XXXXXXX and the WhatsApp placeholder with the real number.
 3. Replace https://yourdomain.com/ in canonical metadata with the real domain.
 4. Connect the enquiry form to a real form/backend service before public use.
@@ -109,7 +109,7 @@ V15 FINAL LAUNCH PACKAGE
 - Added final accessibility/navigation polish
 
 BEFORE PUBLICATION
-1. Replace YOUR-EMAIL@example.com everywhere it appears.
+1. Replace etihad114@gmail.com everywhere it appears.
 2. Replace +92 XXX XXXXXXX and every WhatsApp placeholder.
 3. Replace https://yourdomain.com/ in canonical, sitemap, robots and structured data.
 4. Connect the enquiry form to a real email/form backend and test an actual submission.

@@ -16,7 +16,7 @@ GitHub Pages Deployment Package — V20
 GitHub Pages supports static HTML, CSS and JavaScript files.
 The website currently contains placeholder contact/domain values in site-config.js.
 Replace these before public launch:
-- YOUR-EMAIL@example.com
+- etihad114@gmail.com
 - +92 XXX XXXXXXX
 - 92XXXXXXXXXX
 - https://yourdomain.com/
