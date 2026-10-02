@@ -606,3 +606,32 @@ body.modal-open { overflow:hidden; }
   .gallery-grid { grid-template-columns:1fr; }
   .modal-visual { min-height:240px; }
 }
+
+/* V24 — Corporate header, clean AARR branding and responsive navigation */
+:root{--aarr-navy:#0B1F3A;--aarr-gold:#C9A227;--aarr-blue:#2F80ED;--aarr-gray:#E9EDF2}
+.nav-inner{height:82px;gap:18px}
+.brand{flex:0 0 auto}.brand img{width:300px;max-height:68px}
+.nav nav{align-items:center;gap:19px;flex-wrap:nowrap;min-width:0}
+.nav nav>a,.nav-more>summary{font-size:14px;color:#33445f;white-space:nowrap;text-decoration:none;font-weight:700;cursor:pointer}
+.nav nav>a:hover,.nav-more>summary:hover{color:var(--aarr-blue)}
+.nav-more{position:relative;list-style:none}.nav-more>summary{list-style:none}.nav-more>summary::-webkit-details-marker{display:none}
+.nav-more-menu{position:absolute;right:0;top:31px;min-width:220px;padding:9px;background:#fff;border:1px solid #e2e8f0;border-radius:12px;box-shadow:0 18px 45px rgba(11,31,58,.16);display:grid;gap:3px;z-index:30}
+.nav-more-menu a{display:block;padding:9px 11px;border-radius:8px;color:#33445f;text-decoration:none;font-weight:650;font-size:13px;white-space:nowrap}.nav-more-menu a:hover{background:#f2f6fb;color:var(--aarr-blue)}
+.brand-tagline{margin:0 0 10px;font-size:11px;font-weight:900;letter-spacing:2.1px;color:#C9A227}
+.hero{padding-top:76px}
+.experience-board{background:#fff}
+.experience-board-frame{margin-top:26px;border:1px solid #dbe3ec;border-radius:20px;overflow:hidden;background:#f5f7fa;box-shadow:0 18px 50px rgba(11,31,58,.10)}
+.experience-board-frame img{display:block;width:100%;height:auto}
+.experience-note{margin-top:18px;padding:16px 18px;border-left:4px solid var(--aarr-gold);background:#f7f9fb;border-radius:0 10px 10px 0;color:#5a687b;display:flex;gap:9px;line-height:1.55}.experience-note strong{color:var(--aarr-navy);white-space:nowrap}
+.section-heading{margin-bottom:24px}.section-heading h2{margin-bottom:10px}
+@media(max-width:1180px){.nav nav{gap:13px}.nav nav>a,.nav-more>summary{font-size:13px}.brand img{width:270px}}
+@media(max-width:980px){.nav-inner{height:76px}.nav nav{display:none}.menu{display:block;color:var(--aarr-navy);font-weight:900;padding:8px 10px;border:1px solid #d9e1eb;border-radius:9px}.brand img{width:270px}.experience-note{display:block}.experience-note strong{display:block;margin-bottom:4px}}
+@media(max-width:560px){.brand img{width:225px;max-height:62px}.nav-inner{height:70px}.brand-tagline{font-size:9px;letter-spacing:1.4px}.hero{padding-top:54px}}
+
+/* V24 mobile menu state */
+@media(max-width:980px){
+  .nav.nav-open nav{display:flex;position:absolute;left:4%;right:4%;top:70px;background:#fff;padding:14px;border:1px solid #dfe6ee;border-radius:14px;box-shadow:0 18px 45px rgba(11,31,58,.15);flex-direction:column;gap:4px;align-items:stretch;z-index:40}
+  .nav.nav-open nav>a,.nav.nav-open .nav-more>summary{padding:10px 11px;font-size:14px}
+  .nav.nav-open nav>a:hover,.nav.nav-open .nav-more>summary:hover{background:#f3f7fb}
+  .nav.nav-open .nav-more-menu{position:static;box-shadow:none;border:0;border-top:1px solid #e7edf3;border-radius:0;margin-top:2px;padding:5px 0 0}
+}

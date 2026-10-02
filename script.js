@@ -1,17 +1,22 @@
 document.getElementById("year").textContent = new Date().getFullYear();
 
-document.querySelector(".menu").addEventListener("click", () => {
+(() => {
+  const menu = document.querySelector(".menu");
+  const header = document.querySelector(".nav");
   const nav = document.querySelector(".nav nav");
-  nav.style.display = nav.style.display === "flex" ? "none" : "flex";
-  nav.style.flexDirection = "column";
-  nav.style.position = "absolute";
-  nav.style.top = "72px";
-  nav.style.right = "4%";
-  nav.style.background = "white";
-  nav.style.padding = "18px";
-  nav.style.borderRadius = "10px";
-  nav.style.boxShadow = "0 10px 30px rgba(0,0,0,.12)";
-});
+  if (!menu || !header || !nav) return;
+  menu.setAttribute("aria-expanded", "false");
+  menu.addEventListener("click", () => {
+    const open = header.classList.toggle("nav-open");
+    menu.setAttribute("aria-expanded", String(open));
+    menu.setAttribute("aria-label", open ? "Close menu" : "Open menu");
+  });
+  nav.querySelectorAll("a").forEach(link => link.addEventListener("click", () => {
+    header.classList.remove("nav-open");
+    menu.setAttribute("aria-expanded", "false");
+    menu.setAttribute("aria-label", "Open menu");
+  }));
+})();
 
 function sendMessage(e) {
   e.preventDefault();

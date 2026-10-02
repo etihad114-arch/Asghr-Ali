@@ -8,6 +8,6 @@ window.AARR_SITE_CONFIG = {
   email: "etihad114@gmail.com",
   phone: "+92 XXX XXXXXXX",
   whatsapp: "92XXXXXXXXXX",
-  domain: "https://yourdomain.com/",
+  domain: "https://etihad114-arch.github.io/Asghr-Ali/",
   location: "Rahim Yar Khan, Punjab, Pakistan"
 };

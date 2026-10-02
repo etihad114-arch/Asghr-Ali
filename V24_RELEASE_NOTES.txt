@@ -1,0 +1,14 @@
+AARR V24 — PROFESSIONAL CORPORATE WEBSITE UPGRADE
+
+Changes:
+- Clean responsive AARR master logo with corrected founder text layout.
+- Simplified professional navigation with a More menu for secondary sections.
+- Improved responsive mobile navigation with accessible open/close state.
+- Added AARR corporate experience board section with disclosure wording.
+- Added brand strapline: AARR • ASGHAR ALI • REHAN • RIZWAN.
+- Corrected canonical URL, structured-data URL and sitemap to the live GitHub Pages URL.
+- Preserved existing services, case studies, portfolio, online quote builder, technology, workflow and contact sections.
+- No new client names, project values, dates or partnerships have been invented.
+
+Live site:
+https://etihad114-arch.github.io/Asghr-Ali/
