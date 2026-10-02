@@ -1,0 +1,11 @@
+AARR Engineering & Surveying Solutions — V25 Professional Corporate Redesign
+
+Key changes:
+- Replaced the fragile header image logo with a self-contained vector-style AARR brand mark in HTML/CSS so the header cannot show a broken-image placeholder.
+- Rebuilt the header for a cleaner corporate presentation.
+- Removed the crowded Online Services shortcut strip from the top of the page.
+- Reworked the hero section with a premium engineering visual: Total Station, survey points, contours, road alignment and GNSS/CAD/GIS capability.
+- Reworked hero messaging around precision surveying and development.
+- Kept the existing services, project experience, case studies, portfolio, experience board, online quote, profile, technology, workflow, quality and FAQ content.
+- Preserved GitHub Pages deployment files and existing canonical URL.
+- No unverified project dates, values, client relationships, licences or partnerships were added.
