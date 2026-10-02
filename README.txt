@@ -13,7 +13,7 @@ Open `index.html` in a browser to preview the website.
 The site is responsive and uses only HTML, CSS and JavaScript, so it can be hosted on standard web hosting.
 
 
-Brand update: GS logo added with GPS/GNSS, civil structures and surveying identity. Logo file: gs-logo.svg.
+Brand update: AARR logo added with GPS/GNSS, civil structures and surveying identity. Logo file: aarr-logo.svg.
 
 V9 PROFESSIONAL WEBSITE UPDATE
 - Added Industries & Sectors section
@@ -154,3 +154,17 @@ V19 VISUAL PORTFOLIO UPGRADE
 - Added accessible modal/lightbox viewing.
 - Added safe placeholders for future authorized project photographs.
 - No stock project images or unverified project claims were presented as actual completed works.
+
+
+V22 UPDATE: Header logo enlarged for improved desktop/mobile visibility.
+
+V23 — FINAL AARR BRAND UPDATE
+- Brand: AARR Engineering & Surveying Solutions
+- Family engineering identity: Asghar Ali • Rehan • Rizwan
+- Clean AARR master logo: aarr-logo.svg
+- 90-degree geometric engineering styling
+- GPS/GNSS positioning + Total Station visual reference
+- Deep Navy #0B1F3A, Engineering Gold #C9A227, White #FFFFFF, Cool Gray #E9EDF2
+- Supplied final corporate experience board included as AARR_FINAL_CORPORATE_EXPERIENCE_BOARD.png
+- Business email configured: etihad114@gmail.com
+- Phone, WhatsApp and domain remain placeholders until supplied/confirmed.

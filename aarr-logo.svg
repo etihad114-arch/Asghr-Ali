@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 250" role="img" aria-label="AARR Engineering and Surveying Solutions — Asghar Ali, Rehan, Rizwan">
+  <rect width="1100" height="250" fill="#FFFFFF"/>
+  <g stroke="#0B1F3A" fill="none" stroke-width="7">
+    <circle cx="104" cy="77" r="40" stroke="#C9A227"/>
+    <path d="M104 28v98M55 77h98"/>
+    <path d="M69 42l70 70M139 42l-70 70" stroke-width="3"/>
+  </g>
+  <g fill="#0B1F3A">
+    <path d="M32 31h12v-12h18v12h12v10H32z"/>
+    <rect x="96" y="6" width="16" height="24" transform="rotate(35 104 18)"/>
+    <path d="M111 29l38-23 8 13-38 23z"/>
+  </g>
+  <g stroke="#C9A227" fill="none" stroke-width="6">
+    <path d="M142 55q32 18 0 36"/>
+    <path d="M151 47q48 26 0 52"/>
+  </g>
+  <g transform="translate(30 108)" stroke="#0B1F3A" stroke-width="7" fill="#FFFFFF">
+    <rect x="45" y="0" width="34" height="45"/>
+    <circle cx="62" cy="18" r="9" fill="#C9A227"/>
+    <path d="M50 45l-25 52M74 45l25 52M62 45v52" fill="none"/>
+    <rect x="54" y="68" width="16" height="22" fill="#0B1F3A" stroke="none"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="900">
+    <text x="205" y="139" font-size="132" fill="#0B1F3A" letter-spacing="-6">AARR</text>
+    <rect x="205" y="160" width="575" height="7" fill="#C9A227"/>
+    <text x="210" y="201" font-size="32" fill="#0B1F3A" letter-spacing="2">ENGINEERING &amp; SURVEYING SOLUTIONS</text>
+    <text x="815" y="201" font-size="20" fill="#C9A227" letter-spacing="2">ASGHAR ALI • REHAN • RIZWAN</text>
+  </g>
+</svg>

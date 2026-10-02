@@ -1,9 +1,9 @@
 {
-  "name": "GS Civil Engineering & Surveying Solutions",
-  "short_name": "GS Civil Engineering",
-  "description": "Civil engineering, surveying, CAD, Civil 3D, GIS, BOQ and construction support.",
+  "name": "AARR Engineering & Surveying Solutions",
+  "short_name": "AARR Engineering",
+  "description": "Civil engineering, land surveying, GPS/GNSS, CAD, Civil 3D, GIS, BOQ and construction support.",
   "start_url": "/",
   "display": "standalone",
-  "theme_color": "#0b1f33",
-  "background_color": "#ffffff"
+  "theme_color": "#0B1F3A",
+  "background_color": "#FFFFFF"
 }

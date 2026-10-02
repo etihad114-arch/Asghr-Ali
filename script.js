@@ -20,7 +20,7 @@ function sendMessage(e) {
   const message = document.getElementById("message").value;
   const subject = encodeURIComponent("Website project enquiry");
   const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nProject / Service:\n${message}`);
-  const businessEmail = (window.GS_SITE_CONFIG && window.GS_SITE_CONFIG.email) || 'etihad114@gmail.com';
+  const businessEmail = (window.AARR_SITE_CONFIG && window.AARR_SITE_CONFIG.email) || 'etihad114@gmail.com';
   window.location.href = `mailto:${businessEmail}?subject=${subject}&body=${body}`;
   document.getElementById("form-status").textContent =
     "Your email application should open with the project enquiry prepared.";
@@ -96,7 +96,7 @@ document.querySelectorAll('.package-link').forEach(link => {
 // V16 — centralized contact/domain configuration.
 // The page keeps safe placeholders until the owner replaces site-config.js values.
 (() => {
-  const c = window.GS_SITE_CONFIG || {};
+  const c = window.AARR_SITE_CONFIG || {};
   const isPlaceholder = value =>
     !value || /YOUR-EMAIL|XXX|XXXXXXXX|yourdomain\.com/i.test(value);
 
@@ -152,7 +152,7 @@ document.querySelectorAll('.package-link').forEach(link => {
     ];
 
     const lines = [
-      'GS CIVIL ENGINEERING & SURVEYING SOLUTIONS',
+      'AARR ENGINEERING & SURVEYING SOLUTIONS',
       'PROJECT ENQUIRY',
       '----------------------------------------'
     ];
