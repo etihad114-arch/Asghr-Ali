@@ -25,7 +25,7 @@ function sendMessage(e) {
   const message = document.getElementById("message").value;
   const subject = encodeURIComponent("Website project enquiry");
   const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nProject / Service:\n${message}`);
-  const businessEmail = (window.AARR_SITE_CONFIG && window.AARR_SITE_CONFIG.email) || 'etihad114@gmail.com';
+  const businessEmail = (window.AARR_SITE_CONFIG && window.AARR_SITE_CONFIG.email) || 'aarr.engineering.pk@gmail.com';
   window.location.href = `mailto:${businessEmail}?subject=${subject}&body=${body}`;
   document.getElementById("form-status").textContent =
     "Your email application should open with the project enquiry prepared.";
