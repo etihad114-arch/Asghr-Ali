@@ -248,3 +248,22 @@ document.querySelectorAll('.package-link').forEach(link => {
     if (e.key === 'Escape' && !modal.hidden) shut();
   });
 })();
+/* AARR Engineering — Engineering AI module discussion */
+document.querySelectorAll('a[href="#contact"]').forEach(link => {
+  if (!link.textContent.trim().toLowerCase().includes('discuss a module')) {
+    return;
+  }
+
+  link.addEventListener('click', function () {
+    const messageField = document.querySelector(
+      '#message, #requirements, textarea[name="message"]'
+    );
+
+    if (messageField) {
+      messageField.value =
+        'I would like to discuss an AARR Engineering AI module.';
+      messageField.dispatchEvent(new Event('input', { bubbles: true }));
+    }
+  });
+});
+
