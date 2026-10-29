@@ -1,22 +1,5 @@
-document.getElementById("year").textContent = new Date().getFullYear();
+const yr=document.getElementById("year");if(yr)yr.textContent=new Date().getFullYear();
 
-(() => {
-  const menu = document.querySelector(".menu");
-  const header = document.querySelector(".nav");
-  const nav = document.querySelector(".nav nav");
-  if (!menu || !header || !nav) return;
-  menu.setAttribute("aria-expanded", "false");
-  menu.addEventListener("click", () => {
-    const open = header.classList.toggle("nav-open");
-    menu.setAttribute("aria-expanded", String(open));
-    menu.setAttribute("aria-label", open ? "Close menu" : "Open menu");
-  });
-  nav.querySelectorAll("a").forEach(link => link.addEventListener("click", () => {
-    header.classList.remove("nav-open");
-    menu.setAttribute("aria-expanded", "false");
-    menu.setAttribute("aria-label", "Open menu");
-  }));
-})();
 
 function sendMessage(e) {
   e.preventDefault();

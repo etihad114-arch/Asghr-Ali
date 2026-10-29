@@ -1,9 +1,17 @@
 {
   "name": "AARR Engineering & Surveying Solutions",
-  "short_name": "AARR Engineering",
-  "description": "Civil engineering, land surveying, GPS/GNSS, CAD, Civil 3D, GIS, BOQ and construction support.",
-  "start_url": "/",
+  "short_name": "AARR",
+  "description": "Land surveying, engineering design, development and construction support.",
+  "start_url": "./",
+  "scope": "./",
   "display": "standalone",
   "theme_color": "#0B1F3A",
-  "background_color": "#FFFFFF"
+  "background_color": "#FFFFFF",
+  "icons": [
+    {
+      "src": "aarr-logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
 }
