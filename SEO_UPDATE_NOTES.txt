@@ -1,0 +1,16 @@
+AARR ENGINEERING WEBSITE — SEO UPDATE NOTES
+Prepared: 2026-10-29
+
+Changes in this ZIP:
+- Preserved existing page layout, copy, CSS, JavaScript, images, contact placeholders, and backend files.
+- Added Open Graph preview image metadata for social sharing.
+- Changed Twitter card to summary_large_image.
+- Added basic JSON-LD ProfessionalService structured data using existing public business details.
+- Added a lastmod date to the existing one-URL sitemap.
+- Kept robots.txt pointing to the existing sitemap URL.
+
+Important:
+- These changes are prepared in this ZIP only; they are not published to GitHub Pages automatically.
+- Google Search Console may take time to process a sitemap. A lastmod tag does not guarantee that a fetch error will disappear.
+- Do not deploy the Python backend as part of this SEO update.
+- Phone and WhatsApp placeholders remain unchanged.

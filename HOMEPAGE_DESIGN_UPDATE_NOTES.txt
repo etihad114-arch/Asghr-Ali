@@ -1,0 +1,9 @@
+AARR ENGINEERING WEBSITE — HOMEPAGE DESIGN UPDATE
+
+This package refreshes the homepage presentation using the user-approved Asiancon-inspired direction: white navigation, red accent colour, full-width engineering portfolio banner, and centred welcome heading.
+
+Preserved: existing AARR logo, page sections, service/project content, contact details/placeholders, scripts, backend files, and other repository assets.
+
+This is a ZIP package only. It has NOT been uploaded to GitHub or published to the live website.
+
+Before publishing, extract the archive and review the changed index.html and style.css. Upload the contents of the Asghr-Ali-main folder into the repository root, preserving folders and avoiding deletion of unrelated files.

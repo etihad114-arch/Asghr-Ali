@@ -6,8 +6,8 @@ window.AARR_SITE_CONFIG = {
   businessName: "AARR Engineering & Surveying Solutions",
   founders: "Asghar Ali • Rehan • Rizwan",
   email: "aarr.engineering.pk@gmail.com",
-  phone: "+92 321 6831714",
-  whatsapp: "923216831714",
+  phone: "+92 XXX XXXXXXX",
+  whatsapp: "92XXXXXXXXXX",
   domain: "https://etihad114-arch.github.io/Asghr-Ali/",
   location: "Rahim Yar Khan, Punjab, Pakistan"
 };
